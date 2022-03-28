@@ -1,0 +1,156 @@
+﻿@page "/GroceryStore"
+@{
+    
+    {
+        <h5>Add Food Item to an isle</h5>
+        <form>
+            <div class="row">
+                <div class="col">
+                <label for="Name" class="my-lg-0">Name</label>
+                <input type="text" class="form-control" name="Name">
+                <label for="Company" class="my-lg-0">Company</label>
+                <input type="text" class="form-control" name="Company">
+                <label for="Price" class="my-lg-0">Price</label>
+                <input type="number" class="form-control" name="Price">
+                <label for="quantity" class="my-lg-0">Quantity</label>
+                <input type="number" min ="0" max="20"  class="form-control" name="quantity">
+                <label for="isleNumber" class="my-lg-0">Isle Number</label>
+                <input type="number" class="form-control" name="isleNumber">
+                </div>
+            </div>
+            <button type="button" class="btn btn-success" onclick="AddNewFoodItem " >Add New Food Item</button>
+        </form>
+    }
+}
+
+@foreach (var isle in islesList)
+{
+    <h5>Isle number @isle.IsleNumber : @isle.IsleName</h5>
+    <table class="table table-primary table-hover">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Button</th>
+        </tr>
+        </thead>
+        <tbody>
+            @foreach (var foodItem in isle.FoodItemsList)
+            {
+                <tr>
+                    <td>@foodItem.Name</td>
+                    <td>@foodItem.Company</td>
+                    <td>@foodItem.Price</td>
+                    <td>@foodItem.Quantity</td>
+                    <td>
+                        <button class="btn btn-danger" @onclick="() => DecreaseQuantity(foodItem, isle.IsleNumber)"><span class="oi oi-minus" aria-hidden="true"></span></button>
+                        <button class="btn btn-success" @onclick="() => IncreaseQuantity(foodItem, isle.IsleNumber)"><span class="oi oi-plus" aria-hidden="true"></span></button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@code
+{   
+    [Parameter]
+    public bool ShowAddFoodForm { get; set; }
+    private string isleInput;
+    private string NameInput;
+    private string CompanyInput;
+    private string PriceInput;
+    private string quantityInput;
+    private List<GroceryIsle> islesList = new ()
+        {
+            new GroceryIsle("Fruits", 1, new List<FoodItem>()
+            {
+                new FoodItem {Name = "Banana", 
+                              Quantity = 12, 
+                              Company = "Gardian Farms", 
+                              Price = 5},
+                new FoodItem {Name = "Apple", 
+                              Quantity = 8, 
+                              Company = "Chiawana Orchards,", 
+                              Price = 7}
+            }),
+            new GroceryIsle("Diary", 2, new List<FoodItem>()
+            {
+                new FoodItem {Name = "Milk", 
+                              Quantity = 1, 
+                              Company = "CanadaNestlé.", 
+                              Price = 6},
+                new FoodItem {Name = "Yogurt", 
+                              Quantity = 2, 
+                              Company = "Lactalis", 
+                              Price = 10}
+            }),
+            new GroceryIsle("Vegetables", 3, new List<FoodItem>()
+            {
+                new FoodItem {Name = "Pumpkin", 
+                              Quantity = 2, 
+                              Company = "Sanmark Limited", 
+                              Price = 8},
+                new FoodItem {Name = "Lettuce", 
+                              Quantity = 6, 
+                              Company = "AeroFarms.", 
+                              Price = 7}
+            })
+        };
+
+    private void IncreaseQuantity (FoodItem foodItem, float isleNumber)
+    {
+        var foundIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
+        var foundFood = foundIsle.FoodItemsList.Find(food => food.Name == foodItem.Name);
+
+        if (foundFood.Quantity >= 20) return;
+
+        foundFood.Quantity ++;
+    }
+     private void DecreaseQuantity (FoodItem foodItem, float isleNumber)
+    {
+        var foundIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
+        var foundFood = foundIsle.FoodItemsList.Find(food => food.Name == foodItem.Name);
+
+        if (foundFood.Quantity <= 0) return;
+
+        foundFood.Quantity --;
+    }
+
+    private void AddNewFoodItem ()
+    {
+        if (string.IsNullOrWhiteSpace(isleInput)) return;
+        if (string.IsNullOrWhiteSpace(NameInput)) return;
+        if (string.IsNullOrWhiteSpace(CompanyInput)) return;
+        if (string.IsNullOrWhiteSpace(PriceInput)) return;
+        if (string.IsNullOrWhiteSpace(quantityInput)) return;
+
+        FoodItem newFoodItem = new FoodItem 
+            {
+                Name = NameInput,
+                Quantity = decimal.Parse(quantityInput),
+                Company = CompanyInput,
+                Price = float.Parse(PriceInput)
+            };
+
+
+        try
+        {
+            var isleToUpdate = islesList.Find(isle => isle.IsleNumber == float.Parse(isleInput));
+            isleToUpdate.FoodItemsList.Add(newFoodItem);
+        }
+        catch (Exception err)
+        {
+            throw err;
+        }
+
+        isleInput = string.Empty;
+        NameInput = string.Empty;
+        CompanyInput = string.Empty;
+        PriceInput = string.Empty;
+        quantityInput = string.Empty;
+    }
+}
