@@ -1,0 +1,12 @@
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\bin\Debug\net5.0\KuljinderSinghChatApp.Shared.deps.json
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\bin\Debug\net5.0\KuljinderSinghChatApp.Shared.dll
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\bin\Debug\net5.0\ref\KuljinderSinghChatApp.Shared.dll
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\bin\Debug\net5.0\KuljinderSinghChatApp.Shared.pdb
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\obj\Debug\net5.0\KuljinderSinghChatApp.Shared.csproj.AssemblyReference.cache
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\obj\Debug\net5.0\KuljinderSinghChatApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\obj\Debug\net5.0\KuljinderSinghChatApp.Shared.AssemblyInfoInputs.cache
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\obj\Debug\net5.0\KuljinderSinghChatApp.Shared.AssemblyInfo.cs
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\obj\Debug\net5.0\KuljinderSinghChatApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\obj\Debug\net5.0\KuljinderSinghChatApp.Shared.dll
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\obj\Debug\net5.0\ref\KuljinderSinghChatApp.Shared.dll
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Shared\obj\Debug\net5.0\KuljinderSinghChatApp.Shared.pdb
