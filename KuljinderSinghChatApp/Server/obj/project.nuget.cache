@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "84Lojh+MMKusC85nI1x5rX3jiveeeNHoBVNDIDx/5G4kx3y9d97Q+lq6dzs/mtKpPZzWlEQVBPOZtdUauy/yIA==",
+  "dgSpecHash": "zB5PLG6SJdipzaXBOgyGIFz03ubTuCJIdoQ+kWV2OTZ36oL/aSRcEVpDXPfJJfswLZNxs78LFEqWXOkyQY26Yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\singh\\OneDrive\\Documents\\Github\\KuljinderSingh_WEB315Assignments\\KuljinderSinghChatApp\\Server\\KuljinderSinghChatApp.Server.csproj",
+  "projectFilePath": "C:\\Users\\singh\\Downloads\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSinghChatApp\\Server\\KuljinderSinghChatApp.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.14\\microsoft.aspnetcore.authorization.5.0.14.nupkg.sha512",
     "C:\\Users\\singh\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.14\\microsoft.aspnetcore.components.5.0.14.nupkg.sha512",

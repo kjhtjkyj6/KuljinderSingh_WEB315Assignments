@@ -6,7 +6,7 @@
 <div class="form-group">
     <label>
         Name:
-        <input @bind="userInput" />
+        <input @bind="name" disabled="@(fixName!=null)" />
     </label>
 </div>
 <div class="form-group">
@@ -23,12 +23,12 @@
 
 <hr>
 
-<ul id="messagesList">
+<ol id="messagesList">
     @foreach (var message in messages)
     {
-        <li>@message</li>
+        <li class="message">@message</li>
     }
-</ul>
+</ol>
 
 
 
@@ -36,8 +36,13 @@
 @code {
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
+        
     private string userInput;
     private string messageInput;
+    private string name;
+
+    [Parameter]
+    public string fixName { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
@@ -53,7 +58,14 @@
             StateHasChanged();
         });
 
+
+
         await hubConnection.StartAsync();
+    }
+     protected override async Task OnParametersSetAsync()
+    {
+        await base.OnParametersSetAsync();
+        name = fixName ?? string.Empty;
     }
 
     async Task Send() =>
@@ -64,6 +76,9 @@
 
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
+
+    public bool shouldDisabledNameInput =>
+         string.IsNullOrEmpty(fixName) ? false : true;
 
     public async ValueTask DisposeAsync()
     {

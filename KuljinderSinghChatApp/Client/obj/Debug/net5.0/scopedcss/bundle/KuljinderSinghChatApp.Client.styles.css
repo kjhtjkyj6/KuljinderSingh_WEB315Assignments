@@ -1,3 +1,18 @@
+/* /Chat.razor.rz.scp.css */
+
+    
+
+
+.message[b-zalueo0z26]{
+    border-style: double;
+    border-color: red;;
+}
+.message[b-zalueo0z26]{
+    text-align: right;
+    color: aqua;
+    background-color: aliceblue;
+
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-qzwqrzc3j9] {
     position: relative;

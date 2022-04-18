@@ -7,7 +7,7 @@ namespace KuljinderSinghChatApp.Server.Hubs
     {
         public async Task SendMessage(string user, string message)
         {
-            await Clients.All.SendAsync("ReceiveMessage", user, message);
+            await Clients.All.SendAsync("ReceivingMessageFromAuser", user, message);
 
         }
         public Task SendMessageToCaller(string user, string message)
@@ -17,6 +17,11 @@ namespace KuljinderSinghChatApp.Server.Hubs
         public Task SendMessageToGroup(string user, string message)
         {
             return Clients.Group("SignalR users").SendAsync("ReceivingMessageFromAuser", user, message);
+        }
+        public async Task SendSomeOneIsTyping(string user, string message)
+        {
+            await Clients.All.SendAsync("ReceivingMessageFromAuser", user, message);
+
         }
     }
 }
