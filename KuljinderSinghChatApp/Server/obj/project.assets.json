@@ -1172,11 +1172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\singh\\Downloads\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSinghChatApp\\Server\\KuljinderSinghChatApp.Server.csproj",
+      "projectUniqueName": "C:\\Users\\singh\\OneDrive\\Documents\\Github\\KuljinderSingh_WEB315Assignments\\KuljinderSinghChatApp\\Server\\KuljinderSinghChatApp.Server.csproj",
       "projectName": "KuljinderSinghChatApp.Server",
-      "projectPath": "C:\\Users\\singh\\Downloads\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSinghChatApp\\Server\\KuljinderSinghChatApp.Server.csproj",
+      "projectPath": "C:\\Users\\singh\\OneDrive\\Documents\\Github\\KuljinderSingh_WEB315Assignments\\KuljinderSinghChatApp\\Server\\KuljinderSinghChatApp.Server.csproj",
       "packagesPath": "C:\\Users\\singh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\singh\\Downloads\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSinghChatApp\\Server\\obj\\",
+      "outputPath": "C:\\Users\\singh\\OneDrive\\Documents\\Github\\KuljinderSingh_WEB315Assignments\\KuljinderSinghChatApp\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\singh\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1191,11 +1191,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\singh\\Downloads\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSinghChatApp\\Client\\KuljinderSinghChatApp.Client.csproj": {
-              "projectPath": "C:\\Users\\singh\\Downloads\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSinghChatApp\\Client\\KuljinderSinghChatApp.Client.csproj"
+            "C:\\Users\\singh\\OneDrive\\Documents\\Github\\KuljinderSingh_WEB315Assignments\\KuljinderSinghChatApp\\Client\\KuljinderSinghChatApp.Client.csproj": {
+              "projectPath": "C:\\Users\\singh\\OneDrive\\Documents\\Github\\KuljinderSingh_WEB315Assignments\\KuljinderSinghChatApp\\Client\\KuljinderSinghChatApp.Client.csproj"
             },
-            "C:\\Users\\singh\\Downloads\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSinghChatApp\\Shared\\KuljinderSinghChatApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\singh\\Downloads\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSingh_WEB315Assignments-Assignment-03\\KuljinderSinghChatApp\\Shared\\KuljinderSinghChatApp.Shared.csproj"
+            "C:\\Users\\singh\\OneDrive\\Documents\\Github\\KuljinderSingh_WEB315Assignments\\KuljinderSinghChatApp\\Shared\\KuljinderSinghChatApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\singh\\OneDrive\\Documents\\Github\\KuljinderSingh_WEB315Assignments\\KuljinderSinghChatApp\\Shared\\KuljinderSinghChatApp.Shared.csproj"
             }
           }
         }

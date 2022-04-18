@@ -8,191 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -633804855,
-        "Kind": "Components.Component",
-        "Name": "KuljinderSinghChatApp.Client.App",
-        "AssemblyName": "KuljinderSinghChatApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KuljinderSinghChatApp.Client.App"
-        }
-      },
-      {
-        "HashCode": -1784944640,
-        "Kind": "Components.Component",
-        "Name": "KuljinderSinghChatApp.Client.App",
-        "AssemblyName": "KuljinderSinghChatApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KuljinderSinghChatApp.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KuljinderSinghChatApp.Client.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -216001883,
-        "Kind": "Components.Component",
-        "Name": "KuljinderSinghChatApp.Client.Pages.Counter",
-        "AssemblyName": "KuljinderSinghChatApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -935525806,
-        "Kind": "Components.Component",
-        "Name": "KuljinderSinghChatApp.Client.Pages.Counter",
-        "AssemblyName": "KuljinderSinghChatApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KuljinderSinghChatApp.Client.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -2100150329,
-        "Kind": "Components.Component",
-        "Name": "KuljinderSinghChatApp.Client.Pages.FetchData",
-        "AssemblyName": "KuljinderSinghChatApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1884237423,
-        "Kind": "Components.Component",
-        "Name": "KuljinderSinghChatApp.Client.Pages.FetchData",
-        "AssemblyName": "KuljinderSinghChatApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KuljinderSinghChatApp.Client.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1018644915,
-        "Kind": "Components.Component",
-        "Name": "KuljinderSinghChatApp.Client.Pages.Index",
-        "AssemblyName": "KuljinderSinghChatApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 2004346510,
-        "Kind": "Components.Component",
-        "Name": "KuljinderSinghChatApp.Client.Pages.Index",
-        "AssemblyName": "KuljinderSinghChatApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KuljinderSinghChatApp.Client.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 833458770,
-        "Kind": "Components.Component",
-        "Name": "KuljinderSinghChatApp.Client.Shared.SurveyPrompt",
-        "AssemblyName": "KuljinderSinghChatApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KuljinderSinghChatApp.Client.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -123271858,
-        "Kind": "Components.Component",
-        "Name": "KuljinderSinghChatApp.Client.Shared.SurveyPrompt",
-        "AssemblyName": "KuljinderSinghChatApp.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KuljinderSinghChatApp.Client.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KuljinderSinghChatApp.Client.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1160308503,
         "Kind": "Components.Component",
         "Name": "KuljinderSinghChatApp.Client.Shared.MainLayout",
@@ -318,6 +133,244 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "KuljinderSinghChatApp.Client.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 833458770,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.Shared.SurveyPrompt",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -123271858,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.Shared.SurveyPrompt",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KuljinderSinghChatApp.Client.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2100150329,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.Pages.FetchData",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1884237423,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.Pages.FetchData",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KuljinderSinghChatApp.Client.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -216001883,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.Pages.Counter",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -935525806,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.Pages.Counter",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KuljinderSinghChatApp.Client.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1018644915,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.Pages.Index",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 2004346510,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.Pages.Index",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KuljinderSinghChatApp.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -633804855,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.App",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.App"
+        }
+      },
+      {
+        "HashCode": -1784944640,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.App",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KuljinderSinghChatApp.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 146560096,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.Chat",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Chat"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "fixName",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "fixName"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.Chat"
+        }
+      },
+      {
+        "HashCode": 1865638236,
+        "Kind": "Components.Component",
+        "Name": "KuljinderSinghChatApp.Client.Chat",
+        "AssemblyName": "KuljinderSinghChatApp.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KuljinderSinghChatApp.Client.Chat"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "fixName",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "fixName"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KuljinderSinghChatApp.Client.Chat",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

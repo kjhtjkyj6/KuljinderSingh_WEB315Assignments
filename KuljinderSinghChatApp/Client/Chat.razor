@@ -30,6 +30,8 @@
     }
 </ol>
 
+<p class="someoneistyping">@SendSomeOneIsTyping</p>
+
 
 
 
@@ -40,6 +42,7 @@
     private string userInput;
     private string messageInput;
     private string name;
+    private string SendSomeOneIsTyping;
 
     [Parameter]
     public string fixName { get; set; }
@@ -57,6 +60,19 @@
             messages.Add(encodedMsg);
             StateHasChanged();
         });
+        hubConnection.On<string, string>("someoneistyping", (user, message) =>
+        {
+            SendSomeOneIsTyping = user;
+            messages.Add(new List{user, message});
+            StateHasChanged();
+        });
+        hubConnection.On<string, string>("someoneistyping", (user, message) =>
+        {
+            SendSomeOneStopedTyping = user;
+            messages.Add(new List{user, message});
+            StateHasChanged();
+        });
+       
 
 
 
@@ -67,7 +83,11 @@
         await base.OnParametersSetAsync();
         name = fixName ?? string.Empty;
     }
+    async Task SendSomeOneIsTyping() =>
+        await hubConnection.SendAsync("someoneistyping", name);
 
+    async Task SendSomeOneStopedTyping() =>
+        await hubConnection.SendAsync("someoneistyping", name);
     async Task Send() =>
         await hubConnection.SendAsync("SendMessage", userInput, messageInput);
 

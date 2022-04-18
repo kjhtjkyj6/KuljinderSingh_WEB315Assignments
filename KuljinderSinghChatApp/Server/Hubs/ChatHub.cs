@@ -23,5 +23,10 @@ namespace KuljinderSinghChatApp.Server.Hubs
             await Clients.All.SendAsync("ReceivingMessageFromAuser", user, message);
 
         }
+        public async Task SendSomeOneStopedTyping(string user, string message)
+        {
+            await Clients.All.SendAsync("ReceivingMessageFromAuser", user, message);
+
+        }
     }
 }

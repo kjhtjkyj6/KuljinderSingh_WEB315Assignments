@@ -1323,3 +1323,4 @@ C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\Kuljinde
 C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\obj\Debug\net5.0\ref\KuljinderSinghChatApp.Client.dll
 C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\obj\Debug\net5.0\KuljinderSinghChatApp.Client.pdb
 C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\obj\Debug\net5.0\scopedcss\Chat.razor.rz.scp.css
+C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\obj\Debug\net5.0\scopedcss\Chat.razor.rz.scp.css

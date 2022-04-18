@@ -1,4 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\obj\Debug\net5.0\scopedcss\bundle\" />
 </StaticWebAssets>

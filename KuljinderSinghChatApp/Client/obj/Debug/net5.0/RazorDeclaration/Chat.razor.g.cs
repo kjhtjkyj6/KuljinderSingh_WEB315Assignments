@@ -13,77 +13,77 @@ namespace KuljinderSinghChatApp.Client
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\_Imports.razor"
+#line 1 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\_Imports.razor"
+#line 2 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\_Imports.razor"
+#line 3 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\_Imports.razor"
+#line 4 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\_Imports.razor"
+#line 5 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\_Imports.razor"
+#line 6 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\_Imports.razor"
+#line 7 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\_Imports.razor"
+#line 8 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\_Imports.razor"
+#line 9 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\_Imports.razor"
 using KuljinderSinghChatApp.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\_Imports.razor"
+#line 10 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\_Imports.razor"
 using KuljinderSinghChatApp.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\Chat.razor"
+#line 2 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\Chat.razor"
 using Microsoft.AspNetCore.SignalR.Client;
 
 #line default
@@ -98,7 +98,7 @@ using Microsoft.AspNetCore.SignalR.Client;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 36 "C:\Users\singh\Downloads\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSingh_WEB315Assignments-Assignment-03\KuljinderSinghChatApp\Client\Chat.razor"
+#line 38 "C:\Users\singh\OneDrive\Documents\Github\KuljinderSingh_WEB315Assignments\KuljinderSinghChatApp\Client\Chat.razor"
        
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
@@ -106,6 +106,7 @@ using Microsoft.AspNetCore.SignalR.Client;
     private string userInput;
     private string messageInput;
     private string name;
+    private string SendSomeOneIsTyping;
 
     [Parameter]
     public string fixName { get; set; }
@@ -123,6 +124,19 @@ using Microsoft.AspNetCore.SignalR.Client;
             messages.Add(encodedMsg);
             StateHasChanged();
         });
+        hubConnection.On<string, string>("someoneistyping", (user, message) =>
+        {
+            SendSomeOneIsTyping = user;
+            messages.Add(new List{user, message});
+            StateHasChanged();
+        });
+        hubConnection.On<string, string>("someoneistyping", (user, message) =>
+        {
+            SendSomeOneStopedTyping = user;
+            messages.Add(new List{user, message});
+            StateHasChanged();
+        });
+       
 
 
 
@@ -133,7 +147,11 @@ using Microsoft.AspNetCore.SignalR.Client;
         await base.OnParametersSetAsync();
         name = fixName ?? string.Empty;
     }
+    async Task SendSomeOneIsTyping() =>
+        await hubConnection.SendAsync("someoneistyping", name);
 
+    async Task SendSomeOneStopedTyping() =>
+        await hubConnection.SendAsync("someoneistyping", name);
     async Task Send() =>
         await hubConnection.SendAsync("SendMessage", userInput, messageInput);
 

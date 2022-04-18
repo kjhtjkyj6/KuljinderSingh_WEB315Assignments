@@ -203,13 +203,13 @@
       "mscorlib.dll": "sha256-pOPJrGSp+RVyYmvcT+PTaEq9fVhEFzvMs\/3Ue3S2j+A=",
       "netstandard.dll": "sha256-bY3Q1RCB\/lmUAo5AG5YDHBu5uD8OxCGAiJ+wukrs1pw=",
       "System.Private.CoreLib.dll": "sha256-25IZl0xgoqOBdkTlEjUBLmiiRGYCYI1BaFevKzE+EHk=",
-      "KuljinderSinghChatApp.Shared.dll": "sha256-a+mrM8ixAQFanwIjQEMY9FLzXBYNP3OWBJyLn+mkxPo=",
-      "KuljinderSinghChatApp.Client.dll": "sha256-sJyiFuff6mqfniodLlXLYx4YKaux991uKbPosJboq2M="
+      "KuljinderSinghChatApp.Shared.dll": "sha256-PEJV+uskkJ9lDS+ubAAVPvB43GFQcGCQ7gtydcLmoS8=",
+      "KuljinderSinghChatApp.Client.dll": "sha256-\/nBUGRyqembYfHbFv\/1x99nHh5gzFIo4YGFU69RbnhU="
     },
     "lazyAssembly": null,
     "pdb": {
-      "KuljinderSinghChatApp.Shared.pdb": "sha256-CumdQ4BlQI2L3UoqTq4RVwcfcAETtOwDZJI0po9Zpcc=",
-      "KuljinderSinghChatApp.Client.pdb": "sha256-1labmKpNTluM4UYHVAio6aAoa+Z5OYOUDqioDrWHay0="
+      "KuljinderSinghChatApp.Shared.pdb": "sha256-B6opKfSsQFueKRIby80ceoAF95H0DFGCYhd89Nj9vO8=",
+      "KuljinderSinghChatApp.Client.pdb": "sha256-gHzFSx3wRS646GGgzTDZeSZSULIlrTD+A1i5IkI1YLc="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Ek+C0V\/4GBnUGH1\/X20UjHhjyp7se2MX+2RHWSpKSDE=",
